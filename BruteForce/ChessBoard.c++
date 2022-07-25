@@ -23,26 +23,31 @@ int main()
     int *arr_b = (int *)calloc((height - 7) * (width - 7), sizeof(int));
     int *arr_w = (int *)calloc((height - 7) * (width - 7), sizeof(int));
 
+    int index = 0;
     for (int start_h = 0; start_h < height - 7; start_h++){
         for (int start_w = 0; start_w < width - 7; start_w++){
             for (int i = start_h; i < start_h + 8; i++){
                 for (int j = start_w; j < start_w + 8; j++){
+                    cout << arr[i][j];
                     if (j % 2 == 1){
                         if (arr[i][j] == 'W')
-                            arr_b[start_w + start_h]++;
+                            arr_b[index]++;
+                        else
+                            arr_w[index]++;
                     }
                     else{    
                         if (arr[i][j] == 'W')
-                            arr_w[start_w + start_h]++;
+                            arr_w[index]++;
+                        else
+                            arr_b[index]++;
                     }
                 }
+                cout << "\n";
             }
+            cout << "W Start: " << arr_w[index];
+            cout << "\tB Start: " << arr_b[index];  
+            cout << "\n";  
+            index++;
         }
-    }
-    for (int i = 0; i < (height - 7) * (width - 7); i++)
-    {
-        cout << "sample one: " << arr_b[i];  
-        cout << " sample two: " << arr_w[i];
-        cout << "\n";  
     }
 }

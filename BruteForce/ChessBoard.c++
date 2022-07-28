@@ -28,8 +28,7 @@ int main()
         for (int start_w = 0; start_w < width - 7; start_w++){
             for (int i = start_h; i < start_h + 8; i++){
                 for (int j = start_w; j < start_w + 8; j++){
-                    cout << arr[i][j];
-                    if (j % 2 == 1){
+                    if ((j + i)% 2 == 0){
                         if (arr[i][j] == 'W')
                             arr_b[index]++;
                         else
@@ -42,12 +41,18 @@ int main()
                             arr_b[index]++;
                     }
                 }
-                cout << "\n";
             }
-            cout << "W Start: " << arr_w[index];
-            cout << "\tB Start: " << arr_b[index];  
-            cout << "\n";  
             index++;
         }
     }
+    int result = 100;
+    for (int i = 0; i < index; i++){
+        if (result > arr_b[i]){
+            result = arr_b[i];
+        }
+        if (result > arr_w[i]){
+            result = arr_w[i];
+        }
+    }
+    cout << result << "\n"; 
 }

@@ -1,16 +1,28 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
+#include<stack>
 #include <string>
 using namespace std;
 
-int main(){
-    int num;
-    vector<string> Vst;
-    cin >> num;
-    for (int i = 0; i < num; i++){
-        string st;
-        cin >> st;
-        Vst.push_back(st);
-    }
+int main() {
+	ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+	int case_num;
+	cin >> case_num;
+	string str;
+	stack <char> st;
+	cin.ignore();
+	while (case_num--) {
+		getline(cin, str);
+		str += ' ';
+		for (int i = 0; i < str.size(); i++) {
+			if (str[i] == ' ') {
+				while (!st.empty()) {
+					cout << st.top();
+					st.pop();
+				}cout << ' ';
+			}
+			else
+				st.push(str[i]); 
+		}cout << "\n";
+	}
+	return 0;
 }

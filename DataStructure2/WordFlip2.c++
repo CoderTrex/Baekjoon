@@ -5,35 +5,46 @@
 using namespace std;
 
 int main(){
-	ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-    string st;
-    cin >> st;
-    for (int i = 0; i < st.size())
-
-}
-
-
-
-int main() {
-	int case_num;
-	cin >> case_num;
-	string str;
+	ios::sync_with_stdio(false);
+	cin.tie(NULL); cout.tie(NULL);
 	vector<char> st_v;
-	cin.ignore();
-	while (case_num--) {
-		getline(cin, str);
-		str += ' ';
-		for (int i = 0; i < str.size(); i++) {
-			if (str[i] == ' ') {
-				while (!st_v.empty()) {
-					cout << st_v.back();
-					st_v.pop_back();
+	int i = 0;
+    string st;
+	getline(cin, st);
+	
+	for (int i = 0; i < st.size(); i++){
+		st_v.push_back(st[i]);
+	}
+	
+	vector<char> st_v_2;
+	for (int i = 0; i <= st_v.size(); i++){
+		if (st_v[i] == '<'){
+			while (!st_v_2.empty()) {
+					cout << st_v_2.back();
+					st_v_2.pop_back();
+			}
+			while (st_v[i] != '>'){
+				cout << st_v[i];
+				i++;
+			}
+			cout << '>';
+		}
+		else{
+			if (st_v[i] == ' ') {
+				while (!st_v_2.empty()) {
+					cout << st_v_2.back();
+					st_v_2.pop_back();
 				}cout << ' ';
 			}
-			else{
-				st_v.push_back(str[i]);
+			else if (i == st_v.size()){
+				while (!st_v_2.empty()) {
+					cout << st_v_2.back();
+					st_v_2.pop_back();
+				}
 			}
-		}cout << "\n";
+			else{
+				st_v_2.push_back(st_v[i]);
+			}
+		}
 	}
-	return 0;
 }

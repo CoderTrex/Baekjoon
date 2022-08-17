@@ -19,6 +19,7 @@ int main(){
         int num_input = vec_input[i];
         int num = count(vec_input.begin(), vec_input.end(), num_input);
         vec_count.push_back(num);
+
     }
 
     for (int i = 0; i < cnt - 1; i++){

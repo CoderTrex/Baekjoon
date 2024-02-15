@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "B1978",
+            "request": "launch",
+            "mainClass": "B1978",
+            "projectName": "Baekjoon_eb2fafd6"
+        },
+        {
+            "type": "java",
+            "name": "B2693",
+            "request": "launch",
+            "mainClass": "B2693",
+            "projectName": "Baekjoon_eb2fafd6"
+        },
+        {
+            "type": "java",
+            "name": "B2609",
+            "request": "launch",
+            "mainClass": "B2609",
+            "projectName": "Baekjoon_eb2fafd6"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "Runner.src.App",

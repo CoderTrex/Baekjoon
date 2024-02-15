@@ -4,5 +4,61 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Runner.src.App",
+            "projectName": "Baekjoon_eb2fafd6"
+        },
+        {
+            "type": "java",
+            "name": "B2309",
+            "request": "launch",
+            "mainClass": "B2309",
+            "projectName": "Baekjoon_eb2fafd6"
+        },
+        {
+            "type": "java",
+            "name": "B10818",
+            "request": "launch",
+            "mainClass": "B10818",
+            "projectName": "Baekjoon_eb2fafd6"
+        },
+        {
+            "type": "java",
+            "name": "B10870",
+            "request": "launch",
+            "mainClass": "B10870",
+            "projectName": "Baekjoon_eb2fafd6"
+        },
+        {
+            "type": "java",
+            "name": "B2406",
+            "request": "launch",
+            "mainClass": "B2406",
+            "projectName": "Baekjoon_eb2fafd6"
+        },
+        {
+            "type": "java",
+            "name": "B3460",
+            "request": "launch",
+            "mainClass": "B3460",
+            "projectName": "Baekjoon_eb2fafd6"
+        },
+        {
+            "type": "java",
+            "name": "B2501",
+            "request": "launch",
+            "mainClass": "B2501",
+            "projectName": "Baekjoon_eb2fafd6"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Baekjoon_eb2fafd6"
+        }
     ]
 }

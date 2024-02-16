@@ -8,7 +8,7 @@ public class B2501 {
         int Num = sc.nextInt();
         int K = sc.nextInt();
         int count = 0;
-
+        sc.close();
         for (int i = 1; i <= Num; i++) {
             if (Num % i == 0) {
                 count++;

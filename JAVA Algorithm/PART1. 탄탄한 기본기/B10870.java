@@ -9,6 +9,7 @@ public class B10870 {
         arr[2] = 1;
 
         int n = sc.nextInt();
+        sc.close();
         if (n == 0) {
             System.out.println(0);
             return;

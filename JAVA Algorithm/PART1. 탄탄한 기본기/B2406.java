@@ -26,6 +26,7 @@ public class B2406 {
                 Max_Passenger = Current_Passenger;
             }
         }
+        sc.close();
         System.out.println(Max_Passenger);
     }
 }

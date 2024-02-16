@@ -45,6 +45,7 @@ public class B2609 {
         
         System.out.println(gcd);
         System.out.println(lcm);
+        sc.close();
     }
     
     // 최대공약수 계산

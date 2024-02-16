@@ -10,7 +10,7 @@ public class B2309 {
             arr[i] = sc.nextInt();
             sum += arr[i];
         }
-
+        sc.close();
         for (int i = 0 ; i < 9; i++) {
             for (int j = i + 1; j < 9; j++) {
                 if ((sum - (arr[i] + arr[j])) == 100) {

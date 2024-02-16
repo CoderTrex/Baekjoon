@@ -15,6 +15,7 @@ public class B2693 {
             pQ.poll();
             arr[i] = pQ.poll();
         }
+        sc.close();
         for (int i = 0; i < T; i++) {
             System.out.println(arr[i]);
         }

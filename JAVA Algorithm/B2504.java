@@ -1,35 +1,48 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class B2504 {
 
-    public static void main (String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String sentence = sc.nextLine();
-        int A_flag = 0, B_flag  = 0;
-        boolean okay = true;  
-        
+    public static void main (String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
+        String N = br.readLine();
+        Stack<Character> stack = new Stack<>();
+        int result = 0, value = 1;
 
-        for (int i = 0; i < sentence.length(); i++) {
-            if (A_flag < 0 || B_flag < 0) {
-                okay = false;
-                break;
-            }
-            
-            if (sentence.charAt(i) == '(') {
-                A_flag++;
-            }
-            else if (sentence.charAt(i) == ')') {
-                A_flag--;
-            }
-            else if (sentence.charAt(i) == '[') {
-                B_flag++;
-            }
-            else if (sentence.charAt(i) == ']') {
-                B_flag--;
+        for (int i = 0; i < N.length(); i++) {
+            if (N.charAt(i) == '(') {
+                stack.push(N.charAt(i));
+                value *= 2;
+            } else if (N.charAt(i) == '[') {
+                stack.push(N.charAt(i));
+                value *= 3;
+            } else if (N.charAt(i) == ')') {
+                if (stack.isEmpty() || stack.peek() != '(') {
+                    result = 0;
+                    break;
+                } else if (N.charAt(i - 1) == '(') {
+                    result += value;
+                }
+                stack.pop();
+                value /= 2;
+            } else if (N.charAt(i) == ']') {
+                if (stack.isEmpty() || stack.peek() != '[') {
+                    result = 0;
+                    break;
+                } else if (N.charAt(i - 1) == '[') {
+                    result += value;
+                }
+                stack.pop();
+                value /= 3;
             }
         }
-        if (!okay || A_flag != 0 || B_flag != 0){
-            System.out.println(0);
-        }
+        if (!stack.isEmpty())
+            sb.append(0).append("\n");
+        else
+            sb.append(result).append("\n");
+        System.out.println(sb);
     }
 }

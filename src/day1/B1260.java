@@ -61,7 +61,6 @@ public class B1260 {
             q.add(start);
             bfs[start] = true;
 
-
             while (!q.isEmpty()) {
                 int x = q.poll();
                 cnt_bfs++;

@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3940a0a8-4872-4d6f-aa9d-cf950f5d0dab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day1/B1303.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/B1743.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/B2178.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/B11726.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/B1463.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/B1541.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/B17298.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day1/B1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/B1260.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.B1463.executor": "Run",
+    "Application.B1541.executor": "Run",
+    "Application.B17298.executor": "Run",
     "Application.B1743.executor": "Run",
     "Application.B2178.executor": "Run",
     "Application.Main.executor": "Run",
@@ -52,6 +54,26 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="B17298" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day2.B17298" />
+      <module name="exam1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.B17298" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

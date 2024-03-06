@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3940a0a8-4872-4d6f-aa9d-cf950f5d0dab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day2/B11726.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/B1463.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/B1541.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/B17298.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/B12851.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/B13549.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/B13913.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/B14226.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/B16953.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/B17086.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/B2606.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,16 +42,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.B12851.executor": "Run",
+    "Application.B13549.executor": "Run",
+    "Application.B13913.executor": "Run",
+    "Application.B14226.executor": "Run",
     "Application.B1463.executor": "Run",
     "Application.B1541.executor": "Run",
+    "Application.B16953.executor": "Run",
+    "Application.B17086.executor": "Run",
     "Application.B17298.executor": "Run",
     "Application.B1743.executor": "Run",
     "Application.B2178.executor": "Run",
+    "Application.B2606.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/java/java-study",
     "onboarding.tips.debug.path": "C:/Users/admin/IdeaProjects/exam1/src/Main.java",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.keymap"

@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3940a0a8-4872-4d6f-aa9d-cf950f5d0dab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day3/B12851.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/B13549.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/B13913.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/B14226.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/B16953.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/B17086.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/B2606.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4/B16930.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4/ddd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/B17086.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/B17086.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +44,7 @@
     "Application.B14226.executor": "Run",
     "Application.B1463.executor": "Run",
     "Application.B1541.executor": "Run",
+    "Application.B16930.executor": "Run",
     "Application.B16953.executor": "Run",
     "Application.B17086.executor": "Run",
     "Application.B17298.executor": "Run",

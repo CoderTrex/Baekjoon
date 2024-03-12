@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3940a0a8-4872-4d6f-aa9d-cf950f5d0dab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/day6/B11058.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day6/B1495.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,12 +40,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.B11058.executor": "Run",
     "Application.B12101.executor": "Run",
     "Application.B12851.executor": "Run",
     "Application.B13549.executor": "Run",
     "Application.B13913.executor": "Run",
     "Application.B14226.executor": "Run",
     "Application.B1463.executor": "Run",
+    "Application.B1495.executor": "Run",
     "Application.B1541.executor": "Run",
     "Application.B15486.executor": "Run",
     "Application.B15988.executor": "Run",

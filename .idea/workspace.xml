@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3940a0a8-4872-4d6f-aa9d-cf950f5d0dab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day6/B11058.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day6/B1495.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/EXAM1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/B2616.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,10 @@
     "Application.B1890.executor": "Run",
     "Application.B2178.executor": "Run",
     "Application.B2606.executor": "Run",
+    "Application.B2616.executor": "Run",
     "Application.B9095.executor": "Run",
+    "Application.EXAM1.executor": "Run",
+    "Application.Exam1.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.constructChain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -67,7 +71,7 @@
     "ToolWindowProblems.ShowToolbar": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/java/java-study",
+    "last_opened_file_path": "C:/java/java-board",
     "onboarding.tips.debug.path": "C:/Users/admin/IdeaProjects/exam1/src/Main.java",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.keymap"
@@ -92,13 +96,6 @@
         <item itemvalue="Application.B17298" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

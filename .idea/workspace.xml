@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3940a0a8-4872-4d6f-aa9d-cf950f5d0dab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day11/B11049.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/B12869.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/B11722.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/B12996.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +46,7 @@
     "Application.B12101.executor": "Run",
     "Application.B12851.executor": "Run",
     "Application.B12869.executor": "Run",
+    "Application.B12996.executor": "Run",
     "Application.B13549.executor": "Run",
     "Application.B13913.executor": "Run",
     "Application.B14226.executor": "Run",
@@ -69,6 +71,7 @@
     "Application.constructChain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ToolWindowProblems.ShowToolbar": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",

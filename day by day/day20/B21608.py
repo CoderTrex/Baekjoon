@@ -45,7 +45,6 @@ for index in range(size*size):
                         like_count += 1
                     if matrix[x][y] == 0:
                         empty_count += 1
-            
             if max_count < like_count:
                 max_count = like_count
                 max_empty = empty_count
@@ -56,10 +55,18 @@ for index in range(size*size):
                     max_empty = empty_count
                     find_x = i
                     find_y = j
-
+            if (find_x == 0 and find_y == 0) and (matrix[0][0] != 0):
+                find_x = i
+                find_y = j
     #         print("{0}: ({1}, {2}) like: {3} / empty: {4}".format(student, i, j, like_count, empty_count))
     # print("max: ({0}, {1}) like: {2} / empty: {3}".format(find_x, find_y, max_count, max_empty))
     matrix[find_x][find_y] = student
+
+# print()
+# for i in range(size):
+#     for j in range(size):
+#         print(matrix[i][j], end=' ')
+#     print()
 
 total_happy = 0
 for i in range(size):

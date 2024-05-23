@@ -18,7 +18,7 @@ def dijkstra(s):
 
     while q:
         dist, now = heapq.heappop(q) # 최소 힙이기 때문에 가장 작은 값이 나옴
-        if distance[now] < dist: # 이미 처리된 노드라면 무시
+        if distance[now] < dist: # 이미 처리된 노드라면 무시-
             continue
         for v, value in village[now]: # v: 도착지, value: 비용 / 현재 노드에서 갈 수 있는 모든 노드에 대해 반복
             if dist + value < distance[v]:
